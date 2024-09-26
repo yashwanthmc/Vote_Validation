@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.box1 {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url(https://as1.ftcdn.net/v2/jpg/04/18/84/78/1000_F_418847816_XGQjWVdwKDhDyGVwdvdD3w9gyd0sXv3v.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vb;
+}
+
+input, select {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 4px;
+    border: 1px solid #3527ff;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+option{
+    color: blue;
+}
